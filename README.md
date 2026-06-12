@@ -1,2 +1,24 @@
-# Disease-Prediction-using-symptoms
-Disease Prediction Using Symptoms is a machine learning application that uses the Random Forest Classifier to predict likely diseases from user-entered symptoms. The model analyzes symptom patterns and provides probable disease predictions, supporting early detection and informed healthcare decisions.
+# Disease Prediction Web App
+
+## Features
+- Multiple symptom input
+- Animated, modern UI
+- Disease prediction using Decision Tree
+
+## How to Run
+1. Install dependencies
+```
+pip install -r requirements.txt
+```
+
+2. Train the model
+```
+python model_trainer.py
+```
+
+3. Start the app
+```
+python app.py
+```
+
+Visit `http://127.0.0.1:5000/` in your browser.
